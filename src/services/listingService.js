@@ -18,5 +18,5 @@ export const updateListing = async (id, listingData) => {
 };
 
 export const deleteListing = async (id) => {
-  await axios.delete(`${API_URL}/${id}`);
+  await axios.delete(`${API_URL}/${id}`); 
 };
